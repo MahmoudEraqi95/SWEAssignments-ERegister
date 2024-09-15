@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Student Detail</title>
+</head>
+<body>
+<h1>Student Details</h1>
+<div>
+    <p>Student Number: <span th:text="${student.studentNumber}"></span></p>
+    <p>First Name: <span th:text="${student.firstName}"></span></p>
+    <p>Last Name: <span th:text="${student.lastName}"></span></p>
+    <p>CGPA: <span th:text="${student.cgpa}"></span></p>
+    <!-- More fields as needed -->
+</div>
+</body>
+</html>
